@@ -4,8 +4,9 @@ Ninja is learning the binary representation of the numbers. He wanted to practic
 You are given two integers, ‘A’ and ‘B’.Find the number of bits of ‘B’ that should be flipped to convert it into ‘A’.
 */
 
-int countSetBits(int n)
+int numberOfFlips(int a,int b)
 {
+    int n = a^b;
     int count = 0;
     while (n > 0)
     {
@@ -14,7 +15,4 @@ int countSetBits(int n)
     }
     return count;
 }
-int numberOfFlips(int a, int b)
-{
-    return countSetBits(a^b);
-}
+
