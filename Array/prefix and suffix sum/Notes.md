@@ -1,7 +1,7 @@
-Prefix and Suffix Sum
+# Prefix and Suffix Sum
  
 
-Prefix Sum:
+## Prefix Sum:
  
 
 Given an array, ‘A’ of size N, its prefix sum array is an array of the same size N such that the ith element of the prefix sum array ‘Prefix’ is the sum of all elements of the given array till ith index from the beginning, i.e Prefix[i] = A[0] + A[1] + A[2] + … + A[i]. 
@@ -16,7 +16,7 @@ i.e. P[] = [3, 7, 6, 8, 13]
 
  
 
-Applications:
+## Applications:
 Useful for answering efficiently range sum/xor queries, provided the array elements do not change over which the prefix sum/xor array is calculated.
 Product of elements in a given range.
 Useful for calculating maximum sum subarray and many more...
@@ -35,4 +35,4 @@ i.e. S[] = [13, 10, 6, 7, 5]
 
  
 
-Suffix sum array can serve the same applications as prefix sum array, as it works in a similar manner to prefix sum array.
+## Suffix sum array can serve the same applications as prefix sum array, as it works in a similar manner to prefix sum array.
